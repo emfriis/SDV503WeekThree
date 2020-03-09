@@ -35,6 +35,12 @@ for (let i = 10; i >= 0; i--) {;
     console.log(i);
 };
 
+let wordFirst = 'hello';
+let wordSecond = 'there';
+ 
+console.log(wordFirst, wordSecond);
+console.log( `${wordFirst} ${wordSecond}`);
+
 let numAsString = numFirst + stringNumFirst
 console.log("Evaluation of numeric value 3 + string value '6':");
 console.log(numAsString);
@@ -57,9 +63,3 @@ console.log(numFalse);
 
  console.log("Evaluation of (5 + 6, 2 * 3):");
  console.log(5 + 6, 2 * 3);
-
- let wordFirst = 'hello';
- let wordSecond = 'there';
- 
- console.log(wordFirst, wordSecond);
- console.log( `${wordFirst} ${wordSecond}`);

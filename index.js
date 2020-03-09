@@ -61,5 +61,35 @@ let numFalse = +(1 == 0);
 console.log("Result of (1 == 0) converted to a numeric value.")
 console.log(numFalse);
 
- console.log("Evaluation of (5 + 6, 2 * 3):");
- console.log(5 + 6, 2 * 3);
+console.log("Evaluation of (5 + 6, 2 * 3):");
+console.log(5 + 6, 2 * 3);
+
+console.log(1 + 2, 3 + 4);
+console.log(5 + 6, 7 + 8);
+console.log(8 + 9, 10 + 11);
+
+console.log(3 + 4, 5 + 6, 7 + 8);
+let commaOperatorCalc = (3 + 4, 5 + 6, 7 + 8);
+console.log(commaOperatorCalc);
+
+let numThird = 4;
+let numFourth = 8;
+
+console.log(numThird = numFourth);
+console.log(numThird += numFourth);
+console.log(numThird -= numFourth);
+console.log(numThird *= numFourth);
+console.log(numThird /= numFourth);
+console.log(numThird %= numFourth);
+
+console.log(0 || false || 1);
+console.log(0 || false);
+console.log(0 || false || "");
+console.log(false || undefined);
+console.log(false || null)
+let andFirst;
+console.log(true || (andFirst = 8));
+console.log(andFirst);
+let andSecond;
+console.log(false || (andSecond = 8));
+console.log(andSecond);

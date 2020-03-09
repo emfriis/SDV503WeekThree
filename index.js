@@ -87,9 +87,28 @@ console.log(0 || false);
 console.log(0 || false || "");
 console.log(false || undefined);
 console.log(false || null)
+
 let andFirst;
 console.log(true || (andFirst = 8));
 console.log(andFirst);
+
 let andSecond;
 console.log(false || (andSecond = 8));
 console.log(andSecond);
+
+console.log(true && false);
+console.log(1 && 2);
+console.log("hello" && "world" && "");
+
+console.log(false && (andFirst = 8));
+console.log(andFirst);
+
+console.log(!false);
+console.log(!true);
+console.log(!"");
+console.log(!"hello world");
+console.log(!null);
+console.log(!-256);
+
+console.log(!!false);
+console.log(!!true);

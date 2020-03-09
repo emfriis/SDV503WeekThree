@@ -56,4 +56,10 @@ console.log("Result of (1 == 0) converted to a numeric value.")
 console.log(numFalse);
 
  console.log("Evaluation of (5 + 6, 2 * 3):");
- console.log(5 + 6, 2 * 3)
+ console.log(5 + 6, 2 * 3);
+
+ let wordFirst = 'hello';
+ let wordSecond = 'there';
+ 
+ console.log(wordFirst, wordSecond);
+ console.log( `${wordFirst} ${wordSecond}`);

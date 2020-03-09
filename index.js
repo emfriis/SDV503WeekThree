@@ -36,5 +36,11 @@ let stringNumThird = '12';
 let stringsToNums = +stringNumSecond + +stringNumThird;
 console.log("Evaluation of string '10' plus '12' converted to number values:");
 console.log(stringsToNums);
-console.log("Evaluates to result of numeral operator with strings converted to numeric values");
 
+let numTrue = +(1 == 1);
+console.log("Result of (1 == 1) converted to a numeric value.")
+console.log(numTrue);
+
+let numFalse = +(1 == 0);
+console.log("Result of (1 == 0) converted to a numeric value.")
+console.log(numFalse);
